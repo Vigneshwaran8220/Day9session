@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    font-size:100px;
+    font-family: 'Satisfy', cursive;
+    color:red;
+}
+img{
+    width:50px;
+    height:50px;
+}
+.overflow-main{
+    width:90%;
+    margin:50px;
+    height:300px;
+    border: 1px solid red;
+    text-shadow: 3px 3px 3px black;
+
+    font-family:'Satisfy', cursive;
+    box-shadow: 5px 5px 5px 10px red;
+    /*display:none;---no space given*/ 
+    /*visibility:hidden*----space allocated/
+    /*overflow: visible;*/
+    /*visible is default value the content will be visible even after the size limit*/
+    /*overflow:hidden;*/
+    /*hidden will hide the content after limit*/
+   
+    /*overflow: scroll;*/
+    /*extra content can be scrolled inside the size limit*/
+    overflow: auto;
+    /*it is detect whether the scroll is needed or not*/
+    /*overflow-y: hidden;*/
+    /*x and y axis selectivity we can give properties*/
+}
+.main{
+   border:10px color red;
+}
+@media only screen and (max-width: 1000px){
+    body{
+        background-color:chartreuse;
+    }
+    .overflow-main{
+        background-color: cornflowerblue;
+    }
+}
+
+
+    
+
+
+

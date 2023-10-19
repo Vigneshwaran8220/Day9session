@@ -1,0 +1,29 @@
+1.Overflow Properties:(visible is default value the content will be visible even after the size limit)
+>hidden
+(hidden will hide the content after limit)
+>auto
+(it is detect whether the scroll is needed or not)
+>scroll
+(extra content can be scrolled inside the size limit)
+>visible
+(visibility:hidden---->space allocated)
+>x and y(/*x and y axis selectivity we can give properties*/)
+
+2.Measurements:
+mm,cm,inches
+1 inch=96px
+1px=1/96inch
+em-reference/element size=em
+rem-reference/root of element size
+vh-overview content(v)h-height
+vw-over view content(v)w-width
+%-reference-parent/root parent element
+
+
+3.Fonts
+4.Icons
+5.Mediaquery
+three defaults
+desktop (big screen)
+tab or big smart phones small screen laptop
+smartphones(small)
